@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <header>
+        <div class="pic">
+            <img src="8914.jpg_wh1200.jpg" alt="pic">
+        </div>
+    </header>
+    <main>
+        <section class="main">
+            <div class="heading">
+                <h1>Password Generator</h1>
+            </div>
+            <div class="field">
+                <input type="text" class="input" id="password-input">
+            </div>
+            <div class="length">
+                <input type="range" max="30" min="4" class="rangee" id="length-range" oninput="rangeChange()">
+                <p id="rValue">Password length 4</p>
+            </div>
+           
+            <div class="select">
+                <input type="checkbox" class="check" id="uppercase-checkbox" aria-label="Include uppercase">
+                <p>Include uppercase</p>
+            </div>
+            <div class="selectone">
+                <input type="checkbox" class="check1" id="lowercase-checkbox" aria-label="Include lowercase">
+                <p>Include lowercase</p>
+            </div>
+            <div class="selecttwo">
+                <input type="checkbox" class="check2" id="symbol-checkbox" aria-label="Include symbol">
+                <p>Include symbol</p>
+            </div>
+            <div class="bttn">
+                <button class="btn" id="generate-btn" onclick="generate()">
+                    Generate Password
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+
+body{
+    margin: 0%;
+}
+.main {
+    
+    position: fixed;
+}
+.pic>img{
+    
+    width: 100%;
+    height: 590px;
+    margin: auto;
+    padding: 0%;
+}
+.heading{
+    font-size: 25px;
+}
+.field{
+ 
+    margin-top: -380px;
+    margin-left: 500px;
+
+}
+#rValue{
+    color: #fff;
+    margin-left: 550px;
+}
+.rangee{
+   
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+.field>.input{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+   
+}
+.check{
+margin-top: 10px;
+margin-left: 710px;
+}
+.check1{
+    margin-top: 10px;
+    margin-left: 710px;
+    }
+    .check2{
+        margin-top: 10px;
+        margin-left: 710px;
+        }
+.select>p{
+   color: white;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 510px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.selectone>p{
+    color: white;
+     font-size: 25px;
+     margin-top: -30px;
+     margin-left: 510px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .selecttwo>p{
+    color: white;
+     font-size: 25px;
+     margin-top: -30px;
+     margin-left: 510px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .btn{
+    width: 210px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 30px;
+    border-color:aqua;
+    border-radius: 5px ;
+    border:2px solid;
+    margin-left: 500px;
+    margin-top: 10px;
+ }
+ .btn:hover{
+    background-color:gray;
+    
+ }
+
+ @media only screen and (max-width: 500px){
+
+.main{
+    margin-left: -20px;
+}
+    .heading{
+    margin-top: 20px;
+    margin-left: -60px;
+}
+.input{
+    margin-left: -50px;
+}
+.rangee{
+    margin-left: -px;
+}
+.pic>img{
+    height: 100px;
+}
+.heading>h1{
+    font-size: 25px;
+    padding-left: 0px;
+}
+.select{
+    margin-left: -50px;
+}
+.selectone{
+    margin-left: -50px;
+}
+.selecttwo{
+    margin-left: -50px;
+}
+.bttn{
+margin-left: -40px !important;
+}
+.length{
+    margin-left: -40px;
+}
+ }
+ @media only screen and (max-width: 450px){
+
+        .heading{
+        margin-top: 20px;
+        margin-left: -80px;
+    }
+    .input{
+        margin-left: -100px;
+    }
+  
+    .pic>img{
+        height: 100px;
+    }
+    .heading>h1{
+        font-size: 25px;
+        
+    }
+    .select{
+        margin-left: -100px;
+    }
+    .selectone{
+        margin-left: -100px;
+    }
+    .selecttwo{
+        margin-left: -100px;
+    }
+    .bttn{
+    margin-left: -90px !important;
+    }
+    .length{
+        margin-left: -90px;
+    }
+     }
+ @media only screen and (max-width: 390px){
+
+  
+   
+       
+            .heading{
+            margin-top: 20px;
+            margin-left: -130px;
+        }
+        .input{
+            margin-left: -130px;
+        }
+       
+        .pic>img{
+            height: 100px;
+        }
+        .heading>h1{
+            font-size: 20px;
+            
+        }
+        .select{
+            margin-left: -130px;
+        }
+        .selectone{
+            margin-left: -130px;
+        }
+        .selecttwo{
+            margin-left: -130px;
+        }
+        .bttn{
+        margin-left: -130px !important;
+        }
+        .length{
+            margin-left: -130px;
+        }
+         }
+
+ 
+ @media only screen and (max-width: 650px){
+    .main{
+        margin-top: -350px;
+        margin-left: -300px;
+
+    }
+    .pic>img{
+        height: 1000px;
+    }
+    .heading>h1{
+        font-size: 25px;
+        padding-left: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     }
+ .heading>h1{
+ width: 100%;
+ word-spacing: 10px;
+    color: #fff;
+    margin-left: 430px;
+margin-top: -450px; 
+position:absolute;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
