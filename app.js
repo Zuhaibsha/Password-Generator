@@ -3,6 +3,7 @@ var screen = document.getElementById("password-input");
 var upper = document.getElementById("uppercase-checkbox");
 var lower = document.getElementById("lowercase-checkbox");
 var checkbox3 = document.getElementById("symbol-checkbox");
+var checkbox4=document.getElementById("number-symbol")
 
 
 function rangeChange() {
@@ -13,7 +14,7 @@ function rangeChange() {
  
 function generate() {
     let alphabets = "";
-    if (!upper.checked && !lower.checked && !checkbox3.checked) {
+    if (!upper.checked && !lower.checked && !checkbox3.checked && !checkbox4.checked) {
         screen.value = "At least select one option";
     } else {
         if (upper.checked) {
@@ -24,6 +25,9 @@ function generate() {
         }
         if (checkbox3.checked) {
             alphabets += " ~`!@#$%^&*()_+=-><::|\\ ";
+        }
+        if (checkbox4.checked) {
+            alphabets += " 1234567890 ";
         }
         var allPassword = "";
         for (var i = 0; i < range.value; i++) {
